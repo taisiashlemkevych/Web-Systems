@@ -1,0 +1,23 @@
+{
+  "name": "web-systems",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/taisiashlemkevych/Web-Systems#readme",
+  "bugs": {
+    "url": "https://github.com/taisiashlemkevych/Web-Systems/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/taisiashlemkevych/Web-Systems.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "typescript": "^7.0.2"
+  }
+}
