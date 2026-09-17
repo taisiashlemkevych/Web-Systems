@@ -13,7 +13,10 @@ class Cat implements Animal {
     constructor(name: string, age: number, color?: string) {
         this.name = name;
         this.age = age;
-        this.color = color;
+
+        if (color !== undefined) {
+            this.color = color;
+        }
     }
 
     move(): void {
@@ -29,7 +32,10 @@ class Bird implements Animal {
     constructor(name: string, age: number, color?: string) {
         this.name = name;
         this.age = age;
-        this.color = color;
+
+        if (color !== undefined) {
+            this.color = color;
+        }
     }
 
     move(): void {
@@ -45,7 +51,10 @@ class Fish implements Animal {
     constructor(name: string, age: number, color?: string) {
         this.name = name;
         this.age = age;
-        this.color = color;
+
+        if (color !== undefined) {
+            this.color = color;
+        }
     }
 
     move(): void {
